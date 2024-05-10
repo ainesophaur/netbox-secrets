@@ -141,7 +141,6 @@ class SessionKeyViewSet(
     drf_mixins.ListModelMixin,
     drf_mixins.RetrieveModelMixin,
     drf_mixins.DestroyModelMixin,
-    mixins.BaseViewSet,
     mixins.BulkDestroyModelMixin,
     mixins.ObjectValidationMixin,
     BaseViewSet,
